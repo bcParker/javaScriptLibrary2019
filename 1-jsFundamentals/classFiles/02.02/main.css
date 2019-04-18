@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.parallax1 {
+    background-image: url(./assets/architecture-background-buildings-218983.jpg);
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    scroll-behavior: smooth;
+}
+
+.parallax2 {
+    background-image: url(./assets/architecture-buildings-china-1366957.jpg);
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    scroll-behavior: smooth;
+}
+
+.boxOne {
+    padding-top: 5em;
+    width: 100vm;
+    padding-bottom: 5em;
+    background-color: Gainsboro;
+    text-align: center;
+}
+
+.boxTwo {
+    padding-top: 5em;
+    width: 100vm;
+    padding-bottom: 5em;
+    background-color: Gainsboro;
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+    color: #777;
+}
+
+.boxOne span {
+    font-family: 'Economica', sans-serif;
+    font-size: 4em;
+    text-transform: uppercase;
+}
+
+.boxTwo span {
+    font-family: 'Economica', sans-serif;
+    font-size: 4em;
+    text-transform: uppercase;
+}
+}
+.title {
+    font-family: 'Dosis', sans-serif;
+    font-size: 1.3em;
+    text-transform: uppercase;
+}
+
+.comment {
+    font-family: 'Dosis', sans-serif;
+    font-size: 1.1em;
+    text-transform: uppercase;
+}

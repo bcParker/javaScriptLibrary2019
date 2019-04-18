@@ -1,5 +1,11 @@
-let catArray = ['tabby', 'british shorthair', 'burmese', 'maine coon', 'rag doll']:
+let student = {
+    name: 'peter',
+    awesome: true,
+    degree: 'javascript',
+    week: 1
+}
 
-for (cat of catArray) {
-    console.log(cat, 'says mewo');
+for (item in student) {
+    console.log(item);
+    console.log(student[item]);
 }
